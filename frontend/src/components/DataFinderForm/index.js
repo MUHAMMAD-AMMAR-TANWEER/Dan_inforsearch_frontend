@@ -4,7 +4,7 @@ import ResultsTable from '../ResultsTable';
 import CircularProgress from '@mui/material/CircularProgress';
 
 const api = axios.create({
-    baseURL: "http://localhost:5000"
+    baseURL: "http://app.privaseame.com"
   });
 
 export const DataFinderForm = () => {
